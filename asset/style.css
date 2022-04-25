@@ -1,0 +1,189 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+/* NAV */
+.nav-link {
+    font-size: 20px;
+}
+
+.fa-house-chimney {
+    padding: 34px;
+}
+
+.fa-house-chimney:hover {
+    color: rgb(31, 138, 209);
+    cursor: pointer;
+}
+
+/*Content */
+
+.sign-up-welcome {
+    font-family: 'Overpass', sans-serif;
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+
+.sign-up-ask {
+    font-family: 'Nunito', sans-serif;
+    color: #444B59;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.sign-up-ask a {
+    color: rgb(125, 146, 224);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.sign-in-input {
+    border-radius: 30px;
+    width: 100%;
+    border-style: solid;
+    border-color: #80c8f3;
+}
+
+.label-size {
+    font-size: 18px;
+    font-family: 'Water Brush', cursive;
+}
+
+.contain span {
+    transform: translate(-43px, 12px);
+    cursor: pointer;
+}
+
+.contain span:hover {
+    color: #80c8f3;
+}
+
+.sign-in-button {
+    width: 100%;
+    background-color: #8699DA;
+    border-radius: 30px;
+    font-size: 28px;
+    color: #fff;
+    border: none;
+    height: 50px;
+}
+
+.hr-left {
+    color: #95a8e9;
+    width: 180px;
+    right: 15px;
+    top: 45px;
+}
+
+.hr-right {
+    color: #95a8e9;
+    width: 180px;
+    left: 15px;
+    top: 45px;
+}
+
+.contact-fontaws {
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.contact-icon {
+    height: 24px;
+}
+
+.sign-right {
+    background: url(/asset/img/anh2.jpg) no-repeat;
+    background-size: contain;
+}
+
+.sign-logo {
+    bottom: 10%;
+    right: 5%;
+}
+
+/* pc  */
+@media (min-width:1024px) {
+    .sign {
+        padding: 0 5% 0 9%;
+    }
+
+    .sign-up-welcome {
+        font-size: 36px;
+    }
+
+    .sign-up-ask {
+        font-size: 24px;
+    }
+}
+
+/* Tablet */
+@media (min-width:576px) and (max-width:1023px) {
+
+    .sign {
+        padding: 0 5% 0 5%;
+    }
+
+    .sign-up-welcome {
+        font-size: 28px;
+    }
+
+    .sign-up-ask {
+        font-size: 20px;
+    }
+
+    .label-size {
+        font-size: 16px;
+    }
+
+    .container span {
+        margin: 3.5% -10%;
+    }
+
+    input[type="submit"] {
+        font-size: 24px;
+    }
+}
+
+/* Moblie */
+@media (max-width:576px) {
+
+    .nav-link,
+    .label-size,
+    .show-btn>i {
+        font-size: 12px;
+    }
+
+    .fa-house-chimney {
+        padding: 8px;
+    }
+
+    .sign {
+        padding: 0 12% 0 12%;
+    }
+
+    .sign-up-welcome {
+        font-size: 20px;
+    }
+
+    .sign-up-ask,
+    .sign-in-input,
+    .contact i {
+        font-size: 14px;
+    }
+
+    .container span {
+        margin: 1% -10%;
+    }
+
+    input[type="submit"] {
+        margin-left: 18%;
+        width: 60%;
+        font-size: 18px;
+    }
+}
